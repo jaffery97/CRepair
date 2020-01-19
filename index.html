@@ -1,12 +1,15 @@
+
 <!DOCTYPE html>
 <html>
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Computer Repair</title>
+    <link rel="icon" type="img/favicon.png" href="favicon.png">
+        
+    <title>Computer Repair Specilist</title>
     <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
-   
+
 
 
     <style>
@@ -28,69 +31,77 @@
             background-color: rgb(0, 0, 0, 0.2);
             align-content: center;
             align-items: center;
-             
-            }
-        
+
+        }
+
         .bgrd {
             animation: bgrd 25s linear infinite;
             background-image: url(img/computer1.jpg);
             height: 70vh;
             background-size: cover;
-            background-position:center;
+            background-position: center;
             background-repeat: no-repeat;
             border-radius: 0% 0% 60% 0%;
-              box-shadow: 0px 0px 2px 0px black,
+            box-shadow: 0px 0px 2px 0px black,
                 0px 0px 5px 0px black,
                 0px 0px 5px 0px black,
                 0px 0px 5px 0px black;
-            
-        }
-            
-            @keyframes bgrd {
-                
-                10% {
-                    background-image: url(img/computer1.jpg);
-                  
-                    display: flex;
-             
-                   
-                }  
-                
-                30% {
-                    background-image: url(img/computer2.jpg);
-                   
-                    display: flex;
-                 
-                }   
-    
-                50% {
-                    background-image: url(img/computer3.jpg);
-                   
-                    display: flex;
-                    
-                }   
-                
-                70% {
-                    background-image: url(img/computer4.jpg);
-                
-                    display: flex;
 
-                }   
-                
-                100% {
-                    background-image: url(img/computer5.jpg);
-                  
-                    display: flex;
-               
-                }   
+        }
+
+        @keyframes bgrd {
+
+            10% {
+                background-image: url(img/computer1.jpg);
+
+                display: flex;
+
+
             }
 
-        .logo {
-            width: 120px;
-            height: 100px;
-            position: absolute;
-            left: 0px;
+            30% {
+                background-image: url(img/computer2.jpg);
 
+                display: flex;
+
+            }
+
+            50% {
+                background-image: url(img/computer3.jpg);
+
+                display: flex;
+
+            }
+
+            70% {
+                background-image: url(img/computer4.jpg);
+
+                display: flex;
+
+            }
+
+            100% {
+                background-image: url(img/computer5.jpg);
+
+                display: flex;
+
+            }
+        }
+
+        .logo {
+            padding: 30px;
+            width: auto;
+            font-size: 25px;
+            position: absolute;
+            color: white;
+        }
+        
+        .log {
+            padding: 20px;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            bottom: 60px;
         }
 
         nav {
@@ -116,58 +127,84 @@
                 0px 0px 5px 0px black;
             z-index: 3;
         }
-        
+
         .btext {
             position: absolute;
             left: calc(50% - 100px);
             bottom: calc(50% - 0px);
         }
-        
+
         .typewrite {
-            text-decoration:none;
+            text-decoration: none;
             background-color: #000;
             color: aliceblue;
             padding: 10px;
             font-size: 2em;
         }
 
-        
-        
 
-/* Global */
 
-.line-1{
-    position: relative;
-    bottom: -115%;  
-    left: 0px;
-    width: auto;
-    margin: 0 auto;
-/*    background-color: white;*/
-    padding: 10px;
-    
-    font-size: 80%;
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-    color:purple;
-}
 
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 3s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1 normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width:90%;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
+        /* Global */
+
+        .line-1 {
+            position: relative;
+            bottom: -115%;
+            left: 0px;
+            width: auto;
+            margin: 0 auto;
+            /*    background-color: white;*/
+            padding: 10px;
+
+            font-size: 80%;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+            transform: translateY(-50%);
+            color: purple;
+        }
+
+        /* Animation */
+        .anim-typewriter {
+            animation: typewriter 3s steps(44) 1s 1 normal both,
+                blinkTextCursor 500ms steps(44) 1 normal;
+        }
+
+        @keyframes typewriter {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 90%;
+            }
+        }
+
+        @keyframes blinkTextCursor {
+            from {
+                border-right-color: rgba(255, 255, 255, .75);
+            }
+
+            to {
+                border-right-color: transparent;
+            }
+        }
+
+        .contactus a {
+            text-decoration: none;
+            color: white;
+        }
+
+
         .contactus {
-            position: absolute; right:10px;background-color: deepskyblue;color: aliceblue; padding: 5px;font-weight: bold; bottom: 123px; box-shadow: 0px 0px 2px 0px purple,
+            position: absolute;
+            right: 10px;
+            background-color: deepskyblue;
+            color: aliceblue;
+            padding: 5px;
+            font-weight: bold;
+            bottom: 230px;
+            box-shadow: 0px 0px 2px 0px purple,
                 0px 0px 5px 0px white,
                 0px 0px 5px 0px blue,
                 0px 0px 5px 0px white;
@@ -180,48 +217,48 @@
             padding: 5px 15px;
             width: 90.50%;
         }
-        
-        
     </style>
 </head>
 
 
 
 <body>
-<div class="bgrd">
-    <img src="img/gradient-rounded-abstract-business-logotype_23-2148195452.png" class="logo">
+    <div class="bgrd">
+<!--        <img src="img/ta.png" class="logo">-->
+      
+        <div class="logo" > Tech Auxiliary </div>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact Us</a>
-    </nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
 
-    
-    
-    
-<div class="btext">
-  <a href="" class="typewrite" data-period="2000" data-type='[ "We Are Here ", "For All Your", "Computer Needs", "Call Now", "515-616-XXXX", "515-616-XXXX" ]'>
-   
-  </a>
+
+
+
+        <div class="btext">
+             <img src="img/ta.png" class="log">
+            <a href="" class="typewrite" data-period="2000" data-type='[ "We Are Here ", "For All Your", "Computer Needs", "Call Now", "516-515-0583", "516-515-0583" ]'>
+
+            </a>
+        </div>
+
+        <p class="line-1 anim-typewriter">
+
+            &#10150; Identifying and troubleshooting problems.<br>
+            &#10150; Maintaining hardware and software.<br>
+            &#10150; Resolving network and connectivity issues.<br>
+            &#10150; Installing software applications and CRM programs.<br>
+            &#10150; Handling security updates.
+        </p>
+
+        <span class="contactus"> <a href="mailto:mjafory@gmail.com">CONTACT US </a> </span>
+
+        <footer>
+            <span> Tech Auxiliary 2019 </span>
+            <span style="color:gray;position: absolute;right:0;"> Copyright @2019 </span>
+        </footer>
     </div>
-    
- <p class="line-1 anim-typewriter">
- 
-  &#10150; Identifying and troubleshooting problems.<br>
-&#10150; Maintaining hardware and software.<br>
-&#10150; Resolving network and connectivity issues.<br>
-&#10150; Installing software applications and CRM programs.<br>
-&#10150; Handling security updates.
-    </p>
-
-     <span class="contactus"> CONTACT US</span>
-
-    <footer>
-        <span> Computer Repair 2019 </span>
-        <span style="color:gray;position: absolute;right:0;"> Copyright @2019 </span>
-    </footer>
-    </div>
- <script src="typingscript.js"></script>
+    <script src="typingscript.js"></script>
 </body></html>
